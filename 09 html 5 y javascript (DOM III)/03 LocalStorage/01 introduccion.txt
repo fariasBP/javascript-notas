@@ -1,0 +1,7 @@
+LOCAL STORAGE
+    guarda informacion en tu pc 
+OBJETOS
+    tiene dos tipos de objetos:
+    -localStorage
+    -sessionStorage
+LOCALSTORAGE

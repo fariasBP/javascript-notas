@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DRAG & DROP</title>
+    <style>
+        .contenedor {
+            display: flex;}
+        #casa, #destino, #denegado {
+            border: 2px solid black;
+            min-width: 400px;
+            height: 400px;}
+        #destino {
+            background-color: aquamarine}
+        #denegado {
+            background-color: lightgray;}
+        .circle {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            border: 1px solid black}
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <div id="casa">
+            <h3>Home</h3>
+            <!-- la opcion DRAGGABLE="TRUE" es para que el div sea arrastrable -->
+            <div class="circle" draggable="true" id="circle"></div>
+        </div>
+        <div id="denegado">
+                <h3>denegado</h3>
+            </div>
+        <div id="destino" class="hey">
+            <h3>destino</h3>
+        </div>    
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
